@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://forestfire-prediction-otyk.onrender.com/api/:path*" },
+    { "source": "/api/:path*", "destination": "https://forestfire-prediction-otyk.onrender.com" },
     { "source": "/history-page", "destination": "/history.html" },
     { "source": "/saved", "destination": "/saved.html" }
   ]

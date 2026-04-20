@@ -1,4 +1,6 @@
-﻿const API_BASE = window.location.origin;
+const API_BASE = window.location.hostname.endsWith("vercel.app")
+  ? "https://forestfire-prediction-otyk.onrender.com"
+  : window.location.origin;
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_BASE}${path}`, {

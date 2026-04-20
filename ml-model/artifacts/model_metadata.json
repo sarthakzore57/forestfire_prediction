@@ -1,0 +1,28 @@
+{
+  "model_name": "RandomForestClassifier",
+  "trained_at": "2026-04-18T11:43:07.958103+00:00",
+  "feature_columns": [
+    "temperature_c",
+    "humidity_pct",
+    "wind_speed_mps",
+    "wind_direction_deg",
+    "rainfall_mm",
+    "latitude",
+    "longitude",
+    "month",
+    "day_of_year"
+  ],
+  "lat_min": -89.99962974515553,
+  "lat_max": 89.99915626235094,
+  "lon_min": -179.9937582671005,
+  "lon_max": 179.99175221834463,
+  "supported_countries": [
+    "*"
+  ],
+  "prediction_region_name": "Global",
+  "metrics": {
+    "accuracy": 0.8767,
+    "roc_auc": 0.9545292998301007
+  },
+  "sample_count": 50000
+}
